@@ -5,7 +5,7 @@ public class App {
         int num2 = 2;
         float res;
 
-        boolean booleano;
+        boolean booleano; 
 
         //----- Operadores -----
 
