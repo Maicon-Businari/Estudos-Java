@@ -1,0 +1,18 @@
+# Ignorar diretórios de compilação
+Conceitos Basicos/1- Variaveis/bin/
+Conceitos Basicos/1- Variaveis/target/
+
+# Ignorar arquivos temporários e de configuração de IDEs
+Conceitos Basicos/1- Variaveis/.vscode/
+
+# Ignorar arquivos de log
+*.log
+
+# Ignorar arquivos de sistema do Windows
+Thumbs.db
+Desktop.ini
+
+# Ignorar arquivos de backup e temporários de editores de texto
+*~
+*.bak
+*.swp
