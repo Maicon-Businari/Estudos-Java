@@ -14,10 +14,18 @@
 *Conceitos Basicos/3- Estruturas de Controle/bin/
 *Conceitos Basicos/3- Estruturas de Controle/target/
 
+*Conceitos Basicos/4- Metodos/bin/
+*Conceitos Basicos/4- Metodos/target/
+
+
+
+
 # Ignorar arquivos temporários e de configuração de IDEs
 *Conceitos Basicos/1- Variaveis/.vscode/
 *Conceitos Basicos/2- Operadores/.vscode/
 *Conceitos Basicos/3- Estruturas de Controle/.vscode/
+*Conceitos Basicos/4- Metodos/.vscode/
+
 
 
 # Ignorar arquivos de log
