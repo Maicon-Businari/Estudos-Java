@@ -1,9 +1,24 @@
 # Ignorar diretórios de compilação
-Conceitos Basicos/1- Variaveis/bin/
-Conceitos Basicos/1- Variaveis/target/
+*/bin/
+*/target/
+
+*Conceitos Basicos/bin/
+*Conceitos Basicos/target/
+
+*Conceitos Basicos/1- Variaveis/bin/
+*Conceitos Basicos/1- Variaveis/target/
+
+*Conceitos Basicos/2- Operadores/bin/
+*Conceitos Basicos/2- Operadores/target/
+
+*Conceitos Basicos/3- Estruturas de Controle/bin/
+*Conceitos Basicos/3- Estruturas de Controle/target/
 
 # Ignorar arquivos temporários e de configuração de IDEs
-Conceitos Basicos/1- Variaveis/.vscode/
+*Conceitos Basicos/1- Variaveis/.vscode/
+*Conceitos Basicos/2- Operadores/.vscode/
+*Conceitos Basicos/3- Estruturas de Controle/.vscode/
+
 
 # Ignorar arquivos de log
 *.log
