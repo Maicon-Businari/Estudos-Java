@@ -20,6 +20,10 @@
 *Projetos/1- Gerenciador de Estacionamento/bin/
 *Projetos/1- Gerenciador de Estacionamento/target/
 
+*ProgramacaoﾠAvancada/1- Banco em Memoria/bin/
+*ProgramacaoﾠAvancada/1- Banco em Memoria/target/
+
+
 
 
 # Ignorar arquivos temporários e de configuração de IDEs
@@ -28,6 +32,8 @@
 *Conceitos Basicos/3- Estruturas de Controle/.vscode/
 *Conceitos Basicos/4- Metodos/.vscode/
 *Projetos/1- Gerenciador de Estacionamento/.vscode/
+*ProgramacaoﾠAvancada/1- Banco em Memoria/.vscode/
+
 
 
 
