@@ -14,15 +14,15 @@ Repositório dedicado ao aprendizado de Java, com foco em variáveis, estruturas
 2. **Métodos**
 3. **Interfaces**
 4. **Relacionamento**
-5. **Projeto** (Aplicando até o conceito 4)
-6. **Herança**
-7. **Polimorfismo (Sobrescrição)**
-8. **Polimorfismo (Sobrecarga)**
-9. **Projeto** (Aplicando até o conceito 9)
-10. **Exceções**
+5. **Herança**
+6. **Polimorfismo (Sobrescrição)**
+7. **Polimorfismo (Sobrecarga)**
+8. **Exceções**
 
 ### Programação Avançada
 1. **Banco em Memória**
 
 ### Projetos
-1. **Estacionamento** (Aplicando conceitos de Banco em Memoria )
+1. **Projeto** (Aplicando até o conceito 4 de POO)
+2. **Projeto** (Aplicando até o conceito 9 de POO)
+3. **Estacionamento** (Aplicando conceitos de Banco em Memoria )

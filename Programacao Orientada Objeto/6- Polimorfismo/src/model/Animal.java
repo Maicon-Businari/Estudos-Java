@@ -1,18 +1,18 @@
 package model;
 
-//Classe abstrata não pode ser instanciada
-public abstract class Animal {
+//Classe abstrata não pode ser intanciada
+public abstract  class Animal {
 
     //Atributos
-    private float peso;
+    protected float peso;
     protected int idade;
     protected int membros;
 
-    //Contrutor
+    //Construtor
     public Animal(float peso, int idade, int membros) {
-        this.peso = peso;
-        this.idade = idade;
-        this.membros = membros;
+        this.setPeso(peso);
+        this.setIdade(idade);
+        this.setMembros(membros);
     }
 
     //Getters e Setters
@@ -35,6 +35,9 @@ public abstract class Animal {
         this.membros = membros;
     }
 
-    //Métodos
-    public abstract void emitrSom();
+    //Métodos abstratos
+    public abstract  void locomover();
+    public abstract  void alimentar();
+    public abstract  void emitirSom();
+
 }

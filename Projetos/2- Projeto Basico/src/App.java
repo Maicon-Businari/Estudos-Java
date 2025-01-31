@@ -5,16 +5,6 @@ import model.Visualizacao;
 public class App {
     public static void main(String[] args) throws Exception {
 
-        //----- Exercício -----
-
-        //Criar uma interface
-        //Fazer uma classe abstrata
-        //Fazer no minimo duas classes
-        //Fazer com que ao menos uma das duas classes herder da classe abstrata
-        //Fazer com que as duas classes tenha uma relação
-        //Fazer com que uma classe implemente a interface
-
-        
         Video videos[] = new Video[5];
 
         videos[0] = new Video("Primeiro Video");

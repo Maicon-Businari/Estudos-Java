@@ -2,38 +2,26 @@ package model;
 
 public class Mamifero extends Animal {
 
-    //Atributos
-    private String cor;    
+    //Atributos de Mamíferos + Atributos de Animais
+    protected String corPelo;
 
-
-    //Construtor Mamífero + Construtor Animal
-    public Mamifero(float peso, int idade, int membros, String cor) {
+    //Construtor de Mamífero + Construtor de Animal
+    public Mamifero(float peso, int idade, int membros, String corPelo) {
         super(peso, idade, membros);
-        setCor(cor);
+        this.setCorPelo(corPelo);
     }
-
+    
     //Getters e Setters
-    public String getCor() {
-        return cor;
+    public String getCorPelo() {
+        return corPelo;
+    }
+    public void setCorPelo(String corPelo) {
+        this.corPelo = corPelo;
     }
 
-    public void setCor(String corPelo) {
-        this.cor = corPelo;
-    }
-
-    //Métodos sobrescritos | Polimorfismo de sobreposição ( Mesmas assinaturas em classes diferentes )
+    //Método sobrescrito || Polimorfismo de sobreposição ( Mesmas assinaturas em classes diferentes )
     @Override
-    public void locomover() {
-        System.out.println("Mamífero está correndo.");        
+    public void emitrSom() {
+       System.out.println("Som de mamífero");
     }
-    @Override
-    public void alimentar() {
-        System.out.println("Mamifero comendo.");        
-    }
-    @Override
-    public void emitirSom() {
-        System.out.println("Mamífero fazendo barulho.");        
-    }
-
-
 }

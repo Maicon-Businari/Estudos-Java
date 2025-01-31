@@ -1,23 +1,19 @@
-import model.Ave;
-import model.Mamifero;
-import model.Peixe;
-import model.Reptil;
+import model.Cachorro;
 
 public class App {
     public static void main(String[] args) throws Exception {
 
-        Mamifero mamifero = new Mamifero(40.5f, 7, 4, "Marrom");
-        Reptil reptil = new Reptil(1.7f, 2, 4, "Verde");
-        Peixe peixe = new Peixe(3.5f, 7, 0, "Branco");
-        Ave ave   = new Ave(0.6f, 3, 2, "Marrom");
-        
-        mamifero.alimentar();
-        mamifero.locomover();
-        mamifero.emitirSom();
+        Cachorro cachorro = new Cachorro(7, 4, "Branco");
 
-        reptil.alimentar();
-        peixe.alimentar();
-        ave.alimentar();
+        //Testando os métodos de polimorfismo de sobrecarga
+        cachorro.reagir("Olá");
+        cachorro.reagir("Vai apanhar");
+        cachorro.reagir(11,45);
+        cachorro.reagir(21,00);
+        cachorro.reagir(true);
+        cachorro.reagir(false);
+        cachorro.reagir(2,12.5f);
+        cachorro.reagir(17, 4.5f);
 
     }
 }
