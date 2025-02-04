@@ -21,6 +21,7 @@ Repositório dedicado ao aprendizado de Java, com foco em variáveis, estruturas
 
 ### Programação Avançada
 1. **Banco em Memória**
+2. **Banco em MySQL**
 
 ### Projetos
 1. **Projeto** (Aplicando até o conceito 4 de POO)
