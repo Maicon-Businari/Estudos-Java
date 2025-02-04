@@ -2,41 +2,8 @@
 */bin/
 */target/
 
-*Conceitos Basicos/bin/
-*Conceitos Basicos/target/
-
-*Conceitos Basicos/1- Variaveis/bin/
-*Conceitos Basicos/1- Variaveis/target/
-
-*Conceitos Basicos/2- Operadores/bin/
-*Conceitos Basicos/2- Operadores/target/
-
-*Conceitos Basicos/3- Estruturas de Controle/bin/
-*Conceitos Basicos/3- Estruturas de Controle/target/
-
-*Conceitos Basicos/4- Metodos/bin/
-*Conceitos Basicos/4- Metodos/target/
-
-*Projetos/1- Gerenciador de Estacionamento/bin/
-*Projetos/1- Gerenciador de Estacionamento/target/
-
-*ProgramacaoﾠAvancada/1- Banco em Memoria/bin/
-*ProgramacaoﾠAvancada/1- Banco em Memoria/target/
-
-
-
-
 # Ignorar arquivos temporários e de configuração de IDEs
-*Conceitos Basicos/1- Variaveis/.vscode/
-*Conceitos Basicos/2- Operadores/.vscode/
-*Conceitos Basicos/3- Estruturas de Controle/.vscode/
-*Conceitos Basicos/4- Metodos/.vscode/
-*Projetos/1- Gerenciador de Estacionamento/.vscode/
-*ProgramacaoﾠAvancada/1- Banco em Memoria/.vscode/
-
-
-
-
+*/.vscode/
 
 # Ignorar arquivos de log
 *.log
