@@ -11,6 +11,7 @@ import org.springframework.security.crypto.bcrypt.BCryptPasswordEncoder;
 import org.springframework.security.crypto.password.PasswordEncoder;
 import org.springframework.security.web.SecurityFilterChain;
 
+
 //Informa para o spring security que nessa classe eu vou definir as regras de segurança
 @Configuration
 @EnableWebSecurity
@@ -25,6 +26,7 @@ public class ConfiguracaoSpringSecurity {
                 .authorizeHttpRequests(authorize -> {
                     // Definindo as regras de acesso a cada end-point
                     authorize.requestMatchers("/login").permitAll();
+                    authorize.requestMatchers("/cadastrar").permitAll();
                     authorize.requestMatchers("/inicial").authenticated();
                     authorize.requestMatchers("/admin").hasRole("ADMIN");
                     
