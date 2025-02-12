@@ -25,6 +25,7 @@ Repositório dedicado ao aprendizado de Java, com foco em variáveis, estruturas
 3. **Relacionamento em Banco MySQL**
 4. **Spring Boot**
 5. **Spring Security**
+6. **Autenticação JWT**
 
 
 
